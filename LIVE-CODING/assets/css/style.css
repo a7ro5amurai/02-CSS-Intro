@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/* p {
+    display: inline-block;
+    background-color: #F5F5DC;
+    height: 100px;
+    width: 400px;
+} */
+
+header {
+    text-align: center;
+}
+header ul li {
+    color: violet;
+    background-color: antiquewhite;
+    display: inline-block;
+}
+
+ol li:last-child {
+color: yellowgreen;
+background-color: black;
+font-size: 30px;
+}
+
+ol li:nth-of-type(2) {
+    background-color: coral;
+}
+
+ol li:first-of-type {
+    background-color: green;
+    color: whitesmoke;
+}
+
+div {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    background-color: gold;
+    border: 10px solid black;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+
+    margin: 50px 20px;
+    margin: 100px;
+
+}
+
+div:nth-of-type(2) {
+    padding: 10px;
+}
+
+

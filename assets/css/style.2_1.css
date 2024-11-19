@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    width: 970px;
+    height: 145px;
+}
+
+article{
+    display: inline-block;
+    border: 1px solid black;
+    height: 125px;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+}
+
+li {
+    padding-left: 20px;
+}
+
+li:first-child{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+ul li{
+    list-style: none;
+}
+
